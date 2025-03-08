@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 .hidden-heading {
     display: none;
-    
+
 }
 
 /* Header */
@@ -183,6 +183,18 @@ main {
 
 #times h3 {
     color: #fafafa;
+}
+
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    /* Making sure 'alt' text stays readable after getting rid off white lines between photos. */
+    line-height: 1em;
+}
+
+#photos {
+    /* Getting rid off white lines between photos. By default images are inline elements, like text. */
+    line-height: 0;
 }
 
 /* Footer */
